@@ -30,7 +30,7 @@ import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.fragment.app.Fragment;
 
 public class MainActivity extends AppCompatActivity {
-
+    String type = "A";
     private final BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
