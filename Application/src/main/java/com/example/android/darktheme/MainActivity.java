@@ -31,6 +31,7 @@ import androidx.fragment.app.Fragment;
 
 public class MainActivity extends AppCompatActivity {
     String type = "D";
+    String version = "V2";
     private final BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
